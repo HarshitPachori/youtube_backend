@@ -4,7 +4,7 @@ import connectDB from "./db/db_connect.js";
 import dotenv from "dotenv";
 
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 }); // if using this then use -r dotenv/config --experimental-json-modules
 
 connectDB()
